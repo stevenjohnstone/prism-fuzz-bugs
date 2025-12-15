@@ -1,4 +1,4 @@
-# PRISM Fuzzing Bugs
+# Prism Fuzzing Bugs
 
 This repo contains fuzzing bugs from a campaign running against https://github.com/ruby/prism/commit/fde821aa33fe995d93e189ff98a06dcaffa5843a.
 
