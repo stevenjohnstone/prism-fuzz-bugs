@@ -3,4 +3,4 @@
 testcase=$1
 output=${2:-testcase}
 
-clang -Iinclude -fsanitize=address -O0 -ggdb3 $(find src -name '*.c') "$testcase" -o "$output"
+clang -Iinclude -fsanitize=address,leak -O0 -ggdb3 $(find src -name '*.c') "$testcase" -o "$output"
