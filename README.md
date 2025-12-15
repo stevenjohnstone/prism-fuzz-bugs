@@ -2,7 +2,7 @@
 
 This repo contains fuzzing bugs from a campaign running against https://github.com/ruby/prism/commit/fde821aa33fe995d93e189ff98a06dcaffa5843a.
 
-In [fuzz-coverage-report](./fuzz-coverage-report) is an html coverage overview from the fuzz campaign.
+In [fuzz-coverage-report](./fuzz-coverage-report) is an html coverage overview from the fuzz campaign. See https://stevenjohnstone.github.io/prism-fuzz-bugs/.
 
 In [triage](./triage) are testcases demonstrating various issues. The issues are categorized under [ABRT](./triage/ABRT) (for assertion failures),
 [heap-use-after-free](./triage/heap-use-after-free) and [memory-leak](./triage/memory-leak). Under each directory are
