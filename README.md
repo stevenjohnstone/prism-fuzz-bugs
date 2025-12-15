@@ -16,8 +16,8 @@ From eye-balling the memory-leak testcases, I suspect that a few have common roo
 To reproduce bugs
 1. Checkout this repo into a checkout of the prism source in the sub-directory, say, `fuzz-bugs`
 2. With docker running, execute `make fuzz-debug`
-3. In the docker shell, build a testcase with `fuzz-bugs/build.sh <path to testcase.c>`
-4. Run `./tescase`
+3. In the docker shell, build a testcase with `./fuzz-bugs/build.sh <path to testcase.c>`
+4. Run `./testcase`
 
 If your platform doesn't support address/leak sanitizers but you have docker, you can build and debug
 test cases by running `make fuzz-debug` in the prism respository and the instructions above should
